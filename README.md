@@ -4,6 +4,11 @@
 
 This project is a Password Management System that allows users to securely store and manage their passwords for various accounts and services. The system includes functionalities such as password encryption, random password generation, and a user-friendly menu for interacting with the application.
 
+## Credits
+Ciril Biju Joseph (Project Manager)
+Amil Shahul   (Technical Lead)
+Mit Damniwala (Documentation Lead)
+
 ## Features
 
 - **User Registration and Login:** Users can register new accounts and log in to the system.
@@ -61,3 +66,5 @@ Manages user information, including registration and login functionality. It int
 Ensure you have a MySQL database running and update the database connection details in the `App.java` file:
 ```java
 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "YOURPASSWORD");
+
+
